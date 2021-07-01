@@ -5,8 +5,8 @@ def distance(x1, y1, x2, y2):
     # TODO: your code here
     pass
 
-
-# Тестируем функцию
-print(distance(2, 4, 2, 9))
-print(distance(12, 8, 12, -9))
-print(distance(23, 0, 15, 32))
+import math
+def distance(x1, y1, x2, y2):
+    c = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+    return c
+print (distance(0, 0, 1, 0))
