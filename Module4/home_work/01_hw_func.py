@@ -6,8 +6,9 @@ def lucky_ticket(ticket_number):
     # TODO: your code here
     pass
 
-
-# Тестируем функцию
-print(lucky_ticket(123006))
-print(lucky_ticket(12321))
-print(lucky_ticket(436751))
+def lucky_ticket(ticket):
+    a = str(ticket)
+    lst1 = (a[:1]) + (a[1:2])
+    lst2 = (a[-1]) + (a[-2])
+    if lst1 == lst2:
+        return True
