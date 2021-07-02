@@ -5,3 +5,10 @@ def deposit(x, a, n):
     pass
 # функция принимает три числа и возвращает одно - итоговая сумма на счету Ивана.
 # Проценты на вклад начисляются один раз в год.
+
+def deposit(x, a, n):
+    x = int(" money")
+    a = float("persent")
+    n = int("year")
+    res = ((x/a)*n)
+    return
